@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.8.git'?>
+<?grc format='1' created='3.7.12'?>
 <flow_graph>
   <timestamp>Sat Feb  1 18:28:19 2014</timestamp>
   <block>
@@ -440,7 +440,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>500</value>
+      <value>11</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -629,7 +629,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(488, 171)</value>
+      <value>(424, 148)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -645,7 +645,7 @@
     </param>
     <param>
       <key>msg</key>
-      <value>pmt.intern("".join("x" for i in range(pdu_length)))</value>
+      <value>pmt.intern("".join("Hello world" for i in range(pdu_length)))</value>
     </param>
     <param>
       <key>minoutbuf</key>
@@ -774,7 +774,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(512, 404)</value>
+      <value>(424, 412)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1729,7 +1729,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(792, 376)</value>
+      <value>(824, 380)</value>
     </param>
     <param>
       <key>_rotation</key>
