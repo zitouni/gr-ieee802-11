@@ -151,7 +151,7 @@ void parse_management(char *buf, int length) {
 			}
 			break;
 		case 9:
-			dout << "ATIM";
+			dout << "ATIM"; // Announcement Traffic Indication Message
 			break;
 		case 10:
 			dout << "Disassociation";

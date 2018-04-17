@@ -78,7 +78,7 @@
     </param>
     <param>
       <key>title</key>
-      <value></value>
+      <value>IEEE 802.11p RX</value>
     </param>
   </block>
   <block>
@@ -287,11 +287,11 @@
     </param>
     <param>
       <key>value</key>
-      <value>0.75</value>
+      <value>50</value>
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -327,11 +327,137 @@
     </param>
     <param>
       <key>step</key>
-      <value>0.01</value>
+      <value>1</value>
     </param>
     <param>
       <key>stop</key>
+      <value>80</value>
+    </param>
+    <param>
+      <key>rangeType</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>widget</key>
+      <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
+    <key>variable_qtgui_range</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>50</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(640, 116)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>gain</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>min_len</key>
+      <value>200</value>
+    </param>
+    <param>
+      <key>orient</key>
+      <value>Qt.Horizontal</value>
+    </param>
+    <param>
+      <key>start</key>
       <value>1</value>
+    </param>
+    <param>
+      <key>step</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>stop</key>
+      <value>80</value>
+    </param>
+    <param>
+      <key>rangeType</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>widget</key>
+      <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
+    <key>variable_qtgui_range</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>50</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1088, 100)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>gain_0</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>min_len</key>
+      <value>200</value>
+    </param>
+    <param>
+      <key>orient</key>
+      <value>Qt.Horizontal</value>
+    </param>
+    <param>
+      <key>start</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>step</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>stop</key>
+      <value>80</value>
     </param>
     <param>
       <key>rangeType</key>
@@ -657,7 +783,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(488, 240)</value>
+      <value>(488, 216)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -908,7 +1034,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(800, 908)</value>
+      <value>(808, 884)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -998,7 +1124,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1074,6 +1200,61 @@
     <param>
       <key>num_items</key>
       <value>64</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_udp_sink</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>ipaddr</key>
+      <value>127.0.0.1</value>
+    </param>
+    <param>
+      <key>port</key>
+      <value>52003</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(544, 948)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_udp_sink_0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>psize</key>
+      <value>1472</value>
+    </param>
+    <param>
+      <key>eof</key>
+      <value>True</value>
     </param>
     <param>
       <key>vlen</key>
@@ -1163,11 +1344,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>False</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1008, 916)</value>
+      <value>(1000, 884)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1363,7 +1544,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(808, 236)</value>
+      <value>(808, 212)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1414,7 +1595,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(984, 804)</value>
+      <value>(944, 796)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1567,11 +1748,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(344, 828)</value>
+      <value>(296, 820)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1922,11 +2103,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1164, 520)</value>
+      <value>(1104, 492)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1934,7 +2115,7 @@
     </param>
     <param>
       <key>_rotation</key>
-      <value>270</value>
+      <value>0</value>
     </param>
     <param>
       <key>grid</key>
@@ -2261,7 +2442,7 @@
     </param>
     <param>
       <key>ant0</key>
-      <value></value>
+      <value>TX/RX</value>
     </param>
     <param>
       <key>bw0</key>
@@ -2281,7 +2462,7 @@
     </param>
     <param>
       <key>norm_gain0</key>
-      <value>True</value>
+      <value>False</value>
     </param>
     <param>
       <key>gain0</key>
@@ -3425,7 +3606,7 @@
     </param>
     <param>
       <key>dev_addr</key>
-      <value></value>
+      <value>serial=30AD34D</value>
     </param>
     <param>
       <key>dev_args</key>
@@ -3643,6 +3824,12 @@
   <connection>
     <source_block_id>blocks_multiply_xx_0</source_block_id>
     <sink_block_id>ieee802_11_moving_average_xx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_pdu_to_tagged_stream_1</source_block_id>
+    <sink_block_id>blocks_udp_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>

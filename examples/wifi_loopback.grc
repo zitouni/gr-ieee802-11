@@ -586,7 +586,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(144, 259)</value>
+      <value>(144, 220)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -610,6 +610,37 @@
     </param>
   </block>
   <block>
+    <key>blocks_message_debug</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(56, 376)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_message_debug_0</value>
+    </param>
+  </block>
+  <block>
     <key>blocks_message_strobe</key>
     <param>
       <key>alias</key>
@@ -629,7 +660,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(368, 148)</value>
+      <value>(192, 140)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -645,7 +676,7 @@
     </param>
     <param>
       <key>msg</key>
-      <value>pmt.intern("".join("Hello world" for i in range(pdu_length)))</value>
+      <value>pmt.intern("".join("HH" for i in range(pdu_length)))</value>
     </param>
     <param>
       <key>minoutbuf</key>
@@ -680,7 +711,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(744, 740)</value>
+      <value>(744, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -727,7 +758,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(124, 448)</value>
+      <value>(180, 408)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -774,7 +805,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(424, 412)</value>
+      <value>(424, 372)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -833,7 +864,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(912, 712)</value>
+      <value>(944, 596)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -896,7 +927,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(568, 712)</value>
+      <value>(568, 580)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -947,7 +978,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(352, 267)</value>
+      <value>(352, 228)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -998,7 +1029,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(648, 204)</value>
+      <value>(600, 148)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1045,7 +1076,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(288, 364)</value>
+      <value>(288, 324)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1088,7 +1119,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1064, 464)</value>
+      <value>(1092, 424)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1159,7 +1190,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(420, 512)</value>
+      <value>(320, 484)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1167,7 +1198,7 @@
     </param>
     <param>
       <key>_rotation</key>
-      <value>270</value>
+      <value>0</value>
     </param>
     <param>
       <key>grid</key>
@@ -1506,7 +1537,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(192, 628)</value>
+      <value>(240, 588)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1729,7 +1760,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(824, 380)</value>
+      <value>(824, 340)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1818,6 +1849,12 @@
   </connection>
   <connection>
     <source_block_id>ieee802_11_parse_mac_0</source_block_id>
+    <sink_block_id>blocks_message_debug_0</sink_block_id>
+    <source_key>fer</source_key>
+    <sink_key>print_pdu</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>ieee802_11_parse_mac_0</source_block_id>
     <sink_block_id>blocks_pdu_to_tagged_stream_0</sink_block_id>
     <source_key>fer</source_key>
     <sink_key>pdus</sink_key>
@@ -1833,12 +1870,6 @@
     <sink_block_id>blocks_pdu_to_tagged_stream_0_0</sink_block_id>
     <source_key>carrier</source_key>
     <sink_key>pdus</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>wifi_phy_hier_0</source_block_id>
-    <sink_block_id>foo_wireshark_connector_0</sink_block_id>
-    <source_key>mac_out</source_key>
-    <sink_key>in</sink_key>
   </connection>
   <connection>
     <source_block_id>wifi_phy_hier_0</source_block_id>
