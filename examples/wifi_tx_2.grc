@@ -1,7 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
+<<<<<<< HEAD
 <?grc format='1' created='3.7.11'?>
 <flow_graph>
   <timestamp>Tue Apr 17 10:50:49 2018</timestamp>
+=======
+<?grc format='1' created='3.7.12'?>
+<flow_graph>
+  <timestamp>Wed Nov 15 13:49:40 2017</timestamp>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
   <block>
     <key>options</key>
     <param>
@@ -10,7 +16,11 @@
     </param>
     <param>
       <key>window_size</key>
+<<<<<<< HEAD
       <value></value>
+=======
+      <value>1280, 1024</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>category</key>
@@ -46,7 +56,11 @@
     </param>
     <param>
       <key>id</key>
+<<<<<<< HEAD
       <value>wifi_tx_2_mmm</value>
+=======
+      <value>wifi_tx_2</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>max_nouts</key>
@@ -78,7 +92,11 @@
     </param>
     <param>
       <key>title</key>
+<<<<<<< HEAD
       <value>wifi_tx_2_mmm</value>
+=======
+      <value>IEEE 80211p TX</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
   </block>
   <block>
@@ -97,7 +115,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(1024, 196)</value>
+=======
+      <value>(1016, 76)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>gui_hint</key>
@@ -196,7 +218,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(568, 52)</value>
+=======
+      <value>(464, 76)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>gui_hint</key>
@@ -295,7 +321,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(440, 52)</value>
+=======
+      <value>(336, 76)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>gui_hint</key>
@@ -358,7 +388,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(936, 52)</value>
+=======
+      <value>(832, 76)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>gui_hint</key>
@@ -449,11 +483,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(112, 116)</value>
+=======
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(32, 196)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -484,7 +526,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(256, 44)</value>
+=======
+      <value>(208, 76)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>gui_hint</key>
@@ -543,11 +589,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(752, 52)</value>
+=======
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(648, 76)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>gui_hint</key>
@@ -631,6 +685,7 @@
     </param>
   </block>
   <block>
+<<<<<<< HEAD
     <key>variable</key>
     <param>
       <key>comment</key>
@@ -658,6 +713,8 @@
     </param>
   </block>
   <block>
+=======
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
@@ -673,7 +730,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(1072, 52)</value>
+=======
+      <value>(952, 76)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>gui_hint</key>
@@ -736,11 +797,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(296, 196)</value>
+=======
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(192, 220)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -756,7 +825,11 @@
     </param>
     <param>
       <key>msg</key>
+<<<<<<< HEAD
       <value>pmt.intern("".join("m" for i in range(pdu_length)))</value>
+=======
+      <value>pmt.intern("".join("x" for i in range(pdu_length)))</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>minoutbuf</key>
@@ -779,7 +852,11 @@
     </param>
     <param>
       <key>const</key>
+<<<<<<< HEAD
       <value>0.9</value>
+=======
+      <value>0.6</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>affinity</key>
@@ -787,11 +864,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(328, 492)</value>
+=======
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(224, 516)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -838,11 +923,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(792, 488)</value>
+=======
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(664, 504)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -893,7 +986,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(360, 300)</value>
+=======
+      <value>(256, 324)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -901,7 +998,11 @@
     </param>
     <param>
       <key>host</key>
+<<<<<<< HEAD
       <value>127.0.0.1</value>
+=======
+      <value></value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>id</key>
@@ -960,11 +1061,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(360, 596)</value>
+=======
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(200, 628)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -1015,11 +1124,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(568, 316)</value>
+=======
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(464, 340)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -1043,45 +1160,62 @@
     </param>
   </block>
   <block>
+<<<<<<< HEAD
     <key>qtgui_freq_sink_x</key>
+=======
+    <key>qtgui_const_sink_x</key>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     <param>
       <key>autoscale</key>
       <value>False</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>average</key>
       <value>1.0</value>
     </param>
     <param>
+=======
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>axislabels</key>
       <value>True</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>bw</key>
       <value>samp_rate</value>
     </param>
     <param>
+=======
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>alias</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>fc</key>
       <value>0</value>
     </param>
     <param>
+=======
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>comment</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>ctrlpanel</key>
       <value>False</value>
     </param>
     <param>
+=======
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>affinity</key>
       <value></value>
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
@@ -1095,6 +1229,17 @@
     <param>
       <key>gui_hint</key>
       <value></value>
+=======
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(464, 780)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>1,0,1,2</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -1106,7 +1251,11 @@
     </param>
     <param>
       <key>id</key>
+<<<<<<< HEAD
       <value>qtgui_freq_sink_x_0</value>
+=======
+      <value>qtgui_const_sink_x_0</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>legend</key>
@@ -1125,6 +1274,17 @@
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker1</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style1</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width1</key>
       <value>1</value>
     </param>
@@ -1134,13 +1294,28 @@
     </param>
     <param>
       <key>color10</key>
+<<<<<<< HEAD
       <value>"dark blue"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label10</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker10</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style10</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width10</key>
       <value>1</value>
     </param>
@@ -1157,6 +1332,17 @@
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker2</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style2</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width2</key>
       <value>1</value>
     </param>
@@ -1166,13 +1352,28 @@
     </param>
     <param>
       <key>color3</key>
+<<<<<<< HEAD
       <value>"green"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label3</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker3</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style3</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width3</key>
       <value>1</value>
     </param>
@@ -1182,13 +1383,28 @@
     </param>
     <param>
       <key>color4</key>
+<<<<<<< HEAD
       <value>"black"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label4</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker4</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style4</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width4</key>
       <value>1</value>
     </param>
@@ -1198,13 +1414,28 @@
     </param>
     <param>
       <key>color5</key>
+<<<<<<< HEAD
       <value>"cyan"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label5</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker5</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style5</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width5</key>
       <value>1</value>
     </param>
@@ -1214,13 +1445,28 @@
     </param>
     <param>
       <key>color6</key>
+<<<<<<< HEAD
       <value>"magenta"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label6</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker6</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style6</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width6</key>
       <value>1</value>
     </param>
@@ -1230,13 +1476,28 @@
     </param>
     <param>
       <key>color7</key>
+<<<<<<< HEAD
       <value>"yellow"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label7</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker7</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style7</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width7</key>
       <value>1</value>
     </param>
@@ -1246,13 +1507,28 @@
     </param>
     <param>
       <key>color8</key>
+<<<<<<< HEAD
       <value>"dark red"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label8</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>marker8</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style8</key>
+      <value>0</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>width8</key>
       <value>1</value>
     </param>
@@ -1262,13 +1538,18 @@
     </param>
     <param>
       <key>color9</key>
+<<<<<<< HEAD
       <value>"dark green"</value>
+=======
+      <value>"red"</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>label9</key>
       <value></value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>width9</key>
       <value>1</value>
     </param>
@@ -1279,6 +1560,18 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
+=======
+      <key>marker9</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>style9</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>width9</key>
+      <value>1</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>name</key>
@@ -1289,12 +1582,17 @@
       <value>1</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>showports</key>
       <value>True</value>
     </param>
     <param>
       <key>freqhalf</key>
       <value>True</value>
+=======
+      <key>size</key>
+      <value>480*10</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>tr_chan</key>
@@ -1309,6 +1607,13 @@
       <value>qtgui.TRIG_MODE_FREE</value>
     </param>
     <param>
+<<<<<<< HEAD
+=======
+      <key>tr_slope</key>
+      <value>qtgui.TRIG_SLOPE_POS</value>
+    </param>
+    <param>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
       <key>tr_tag</key>
       <value>""</value>
     </param>
@@ -1318,6 +1623,7 @@
     </param>
     <param>
       <key>update_time</key>
+<<<<<<< HEAD
       <value>0.10</value>
     </param>
     <param>
@@ -1339,6 +1645,25 @@
     <param>
       <key>units</key>
       <value>dB</value>
+=======
+      <value>0.01</value>
+    </param>
+    <param>
+      <key>xmax</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>xmin</key>
+      <value>-2</value>
+    </param>
+    <param>
+      <key>ymax</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>ymin</key>
+      <value>-2</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
   </block>
   <block>
@@ -1569,7 +1894,11 @@
     </param>
     <param>
       <key>ant1</key>
+<<<<<<< HEAD
       <value>TX/RX</value>
+=======
+      <value></value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>bw1</key>
@@ -2009,11 +2338,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(872, 564)</value>
+=======
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(456, 604)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -2033,7 +2370,11 @@
     </param>
     <param>
       <key>sd_spec0</key>
+<<<<<<< HEAD
       <value>A:B</value>
+=======
+      <value>A:A</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>time_source0</key>
@@ -2153,7 +2494,11 @@
     </param>
     <param>
       <key>sync</key>
+<<<<<<< HEAD
       <value></value>
+=======
+      <value>pc_clock</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>len_tag_name</key>
@@ -2180,11 +2525,19 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
       <value>(592, 436)</value>
+=======
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(464, 452)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -2249,7 +2602,11 @@
   </connection>
   <connection>
     <source_block_id>foo_packet_pad2_0</source_block_id>
+<<<<<<< HEAD
     <sink_block_id>qtgui_freq_sink_x_0</sink_block_id>
+=======
+    <sink_block_id>qtgui_const_sink_x_0</sink_block_id>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>

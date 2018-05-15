@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
+<<<<<<< HEAD
 <?grc format='1' created='3.7.11'?>
+=======
+<?grc format='1' created='3.7.12'?>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
 <flow_graph>
   <timestamp>Sat Feb  1 18:28:19 2014</timestamp>
   <block>
@@ -440,7 +444,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>500</value>
+      <value>11</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -586,7 +590,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(144, 259)</value>
+      <value>(144, 220)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -610,6 +614,37 @@
     </param>
   </block>
   <block>
+    <key>blocks_message_debug</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(56, 376)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_message_debug_0</value>
+    </param>
+  </block>
+  <block>
     <key>blocks_message_strobe</key>
     <param>
       <key>alias</key>
@@ -629,7 +664,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(488, 171)</value>
+      <value>(192, 140)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -645,7 +680,11 @@
     </param>
     <param>
       <key>msg</key>
+<<<<<<< HEAD
       <value>pmt.intern("".join("h" for i in range(pdu_length)))</value>
+=======
+      <value>pmt.intern("".join("HH" for i in range(pdu_length)))</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>minoutbuf</key>
@@ -680,7 +719,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(736, 740)</value>
+=======
+      <value>(744, 620)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -727,7 +770,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(124, 448)</value>
+      <value>(180, 408)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -774,7 +817,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(568, 404)</value>
+=======
+      <value>(424, 372)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -833,7 +880,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(912, 712)</value>
+      <value>(944, 596)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -896,7 +943,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(568, 712)</value>
+      <value>(568, 580)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -947,7 +994,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(352, 267)</value>
+      <value>(352, 228)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -998,7 +1045,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(736, 179)</value>
+      <value>(600, 148)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1045,7 +1092,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(288, 364)</value>
+      <value>(288, 324)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1088,7 +1135,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
       <value>(1068, 472)</value>
+=======
+      <value>(1092, 424)</value>
+>>>>>>> 071186f78614211dbcba3d0e7ed9a48d3d056164
     </param>
     <param>
       <key>_rotation</key>
@@ -1159,7 +1210,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(420, 512)</value>
+      <value>(320, 484)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1167,7 +1218,7 @@
     </param>
     <param>
       <key>_rotation</key>
-      <value>270</value>
+      <value>0</value>
     </param>
     <param>
       <key>grid</key>
@@ -1506,7 +1557,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(192, 628)</value>
+      <value>(240, 588)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1729,7 +1780,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(792, 376)</value>
+      <value>(824, 340)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1818,6 +1869,12 @@
   </connection>
   <connection>
     <source_block_id>ieee802_11_parse_mac_0</source_block_id>
+    <sink_block_id>blocks_message_debug_0</sink_block_id>
+    <source_key>fer</source_key>
+    <sink_key>print_pdu</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>ieee802_11_parse_mac_0</source_block_id>
     <sink_block_id>blocks_pdu_to_tagged_stream_0</sink_block_id>
     <source_key>fer</source_key>
     <sink_key>pdus</sink_key>
@@ -1833,12 +1890,6 @@
     <sink_block_id>blocks_pdu_to_tagged_stream_0_0</sink_block_id>
     <source_key>carrier</source_key>
     <sink_key>pdus</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>wifi_phy_hier_0</source_block_id>
-    <sink_block_id>foo_wireshark_connector_0</sink_block_id>
-    <source_key>mac_out</source_key>
-    <sink_key>in</sink_key>
   </connection>
   <connection>
     <source_block_id>wifi_phy_hier_0</source_block_id>
