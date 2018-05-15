@@ -44,6 +44,7 @@ sync_short_impl(double threshold, unsigned int min_plateau, bool log, bool debug
 	set_tag_propagation_policy(block::TPP_DONT);
 }
 
+
 int general_work (int noutput_items, gr_vector_int& ninput_items,
 		gr_vector_const_void_star& input_items,
 		gr_vector_void_star& output_items) {
@@ -67,7 +68,6 @@ int general_work (int noutput_items, gr_vector_int& ninput_items,
 			if(in_cor[i] > d_threshold) {
 				if(d_plateau < MIN_PLATEAU) {
 					d_plateau++;
-
 				} else {
 					d_state = COPY;
 					d_copied = 0;
@@ -129,6 +129,7 @@ int general_work (int noutput_items, gr_vector_int& ninput_items,
 }
 
 void insert_tag(uint64_t item, double freq_offset) {
+
 	mylog(boost::format("frame start at %1%") % item);
 
 	const pmt::pmt_t key = pmt::string_to_symbol("wifi_start");

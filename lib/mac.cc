@@ -53,23 +53,23 @@ mac_impl(std::vector<uint8_t> src_mac, std::vector<uint8_t> dst_mac, std::vector
 	message_port_register_in(pmt::mp("phy in"));
 	set_msg_handler(pmt::mp("phy in"), boost::bind(&mac_impl::phy_in, this, _1));
 
+
 	if(!check_mac(src_mac)) throw std::invalid_argument("wrong mac address size");
 	if(!check_mac(dst_mac)) throw std::invalid_argument("wrong mac address size");
 	if(!check_mac(bss_mac)) throw std::invalid_argument("wrong mac address size");
 
 	for(int i = 0; i < 6; i++) {
-		d_src_mac[i] = src_mac[i];
-		d_dst_mac[i] = dst_mac[i];
-		d_bss_mac[i] = bss_mac[i];
+		d_src_mac[i] = src_mac[i];//
+		d_dst_mac[i] = dst_mac[i]; //
+		d_bss_mac[i] = bss_mac[i]; // // //
 	}
 }
 
 void phy_in (pmt::pmt_t msg) {
-	// this must be a pair
-	if (!pmt::is_blob(pmt::cdr(msg))) {
-		throw std::runtime_error("PMT must be blob");
+	// this must be a pair  // //
+	if (!pmt::is_blob(pmt::cdr(msg))) {////
+		throw std::runtime_error("PMT must be blob"); ////
 	}
-
 	// strip MAC header
 	// TODO: check for frame type to determine header size
 	pmt::pmt_t blob(pmt::cdr(msg));
@@ -82,7 +82,7 @@ void phy_in (pmt::pmt_t msg) {
 
 void app_in (pmt::pmt_t msg) {
 
-	size_t       msg_len;
+	size_t       msg_len; //
 	const char   *msdu;
 	std::string  str;
 

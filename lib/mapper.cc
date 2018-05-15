@@ -113,6 +113,7 @@ int general_work(int noutput, gr_vector_int& ninput_items,
 			//std::cout << "punctured" << std::endl;
 			// interleaving
 			interleave(punctured_data, interleaved_data, frame, d_ofdm);
+
 			//std::cout << "interleaved" << std::endl;
 
 			// one byte per symbol

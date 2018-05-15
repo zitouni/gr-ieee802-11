@@ -44,7 +44,7 @@ frame_equalizer_impl::frame_equalizer_impl(Equalizer algo, double freq, double b
 
 	message_port_register_out(pmt::mp("symbols"));
 
-	d_bpsk = constellation_bpsk::make();
+	d_bpsk = constellation_bpsk::make();//
 	d_qpsk = constellation_qpsk::make();
 	d_16qam = constellation_16qam::make();
 	d_64qam = constellation_64qam::make();
@@ -57,7 +57,6 @@ frame_equalizer_impl::frame_equalizer_impl(Equalizer algo, double freq, double b
 
 frame_equalizer_impl::~frame_equalizer_impl() {
 }
-
 
 void
 frame_equalizer_impl::set_algorithm(Equalizer algo) {

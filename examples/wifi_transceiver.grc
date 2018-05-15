@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.8.git'?>
+<?grc format='1' created='3.7.11'?>
 <flow_graph>
   <timestamp>Fri Jul 18 10:38:08 2014</timestamp>
   <block>
@@ -722,7 +722,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>file</key>
@@ -730,7 +730,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(48, 403)</value>
+      <value>(40, 436)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -777,7 +777,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(480, 564)</value>
+      <value>(464, 564)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -875,7 +875,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(616, 157)</value>
+      <value>(616, 156)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -981,11 +981,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 411)</value>
+      <value>(240, 468)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1126,7 +1126,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(328, 492)</value>
+      <value>(176, 220)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1134,7 +1134,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>ieee802_11_parse_mac_0</value>
+      <value>ieee802_11_parse_mac_0_0</value>
     </param>
     <param>
       <key>log</key>
@@ -1504,7 +1504,7 @@
     </param>
     <param>
       <key>ant0</key>
-      <value></value>
+      <value>TX/RX</value>
     </param>
     <param>
       <key>bw0</key>
@@ -2156,7 +2156,7 @@
     </param>
     <param>
       <key>dev_addr</key>
-      <value></value>
+      <value>serial=31027C3</value>
     </param>
     <param>
       <key>dev_args</key>
@@ -2188,7 +2188,7 @@
     </param>
     <param>
       <key>sd_spec0</key>
-      <value></value>
+      <value>A:A</value>
     </param>
     <param>
       <key>time_source0</key>
@@ -2327,7 +2327,7 @@
     </param>
     <param>
       <key>ant0</key>
-      <value></value>
+      <value>TX/RX</value>
     </param>
     <param>
       <key>bw0</key>
@@ -3491,7 +3491,7 @@
     </param>
     <param>
       <key>dev_addr</key>
-      <value></value>
+      <value>serial=31027C3</value>
     </param>
     <param>
       <key>dev_args</key>
@@ -3523,7 +3523,7 @@
     </param>
     <param>
       <key>sd_spec0</key>
-      <value></value>
+      <value>A:B</value>
     </param>
     <param>
       <key>time_source0</key>
@@ -3797,7 +3797,7 @@
   </connection>
   <connection>
     <source_block_id>wifi_phy_hier_0</source_block_id>
-    <sink_block_id>ieee802_11_parse_mac_0</sink_block_id>
+    <sink_block_id>ieee802_11_parse_mac_0_0</sink_block_id>
     <source_key>mac_out</source_key>
     <sink_key>in</sink_key>
   </connection>

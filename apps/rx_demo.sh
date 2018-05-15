@@ -42,7 +42,7 @@ sleep 1
 
 
 ### start wireshark
-wireshark -k -i ${FILE} &
+sudo wireshark -k -i ${FILE} &
 sleep 1
 
 

@@ -127,7 +127,7 @@ int general_work (int noutput, gr_vector_int& ninput_items,
 			}
 
 			if(rel >= 0 && (rel < 128 || ((rel - 128) % 80) > 15)) {
-				out[o] = in_delayed[i] * exp(gr_complex(0, d_offset * d_freq_offset));
+				out[o] = in_delayed[i] * exp(gr_complex(0, d_offset * d_freq_offset)); //Frequency offset correction
 				o++;
 			}
 

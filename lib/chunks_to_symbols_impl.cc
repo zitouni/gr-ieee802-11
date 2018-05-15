@@ -40,7 +40,7 @@ chunks_to_symbols_impl::chunks_to_symbols_impl() :
 
 	d_mapping = d_bpsk;
 }
-
+//
 chunks_to_symbols_impl::~chunks_to_symbols_impl() { }
 
 
