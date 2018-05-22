@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Thu Apr 26 12:04:47 2018
+# Generated: Tue May 22 13:12:25 2018
 ##################################################
 
 if __name__ == '__main__':
@@ -58,6 +58,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.settings = Qt.QSettings("GNU Radio", "top_block")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
+
         ##################################################
         # Variables
         ##################################################
@@ -70,13 +71,13 @@ class top_block(gr.top_block, Qt.QWidget):
         ##################################################
         self._samp_rate_range = Range(5e6, 40e6, 5e6, 10e6, 200)
         self._samp_rate_win = RangeWidget(self._samp_rate_range, self.set_samp_rate, "samp_rate", "counter_slider", float)
-        self.top_layout.addWidget(self._samp_rate_win)
+        self.top_grid_layout.addWidget(self._samp_rate_win)
         self._gain_range = Range(2, 70, 1, 50, 200)
         self._gain_win = RangeWidget(self._gain_range, self.set_gain, "gain", "counter_slider", float)
-        self.top_layout.addWidget(self._gain_win)
+        self.top_grid_layout.addWidget(self._gain_win)
         self._freq_range = Range(50e6, 6000e6, 5e6, 5890e6, 200)
         self._freq_win = RangeWidget(self._freq_range, self.set_freq, "freq", "counter_slider", float)
-        self.top_layout.addWidget(self._freq_win)
+        self.top_grid_layout.addWidget(self._freq_win)
         self.uhd_usrp_source_0 = uhd.usrp_source(
         	",".join(("", "")),
         	uhd.stream_args(
@@ -93,7 +94,9 @@ class top_block(gr.top_block, Qt.QWidget):
         self.fosphor_qt_sink_c_0.set_fft_window(window.WIN_BLACKMAN_hARRIS)
         self.fosphor_qt_sink_c_0.set_frequency_range(freq, samp_rate)
         self._fosphor_qt_sink_c_0_win = sip.wrapinstance(self.fosphor_qt_sink_c_0.pyqwidget(), Qt.QWidget)
-        self.top_layout.addWidget(self._fosphor_qt_sink_c_0_win)
+        self.top_grid_layout.addWidget(self._fosphor_qt_sink_c_0_win)
+
+
 
         ##################################################
         # Connections

@@ -71,6 +71,7 @@ frame_equalizer_impl::set_algorithm(Equalizer algo) {
 		break;
 	case LS:
 		dout << "LS" << std::endl;
+
 		d_equalizer = new equalizer::ls();
 		break;
 	case LMS:
